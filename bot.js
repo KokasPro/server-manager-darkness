@@ -76,29 +76,29 @@ if (message.content.startsWith(prefix + 'help')) {
 	✴ _support "the bot dev server"
      ===========================================================
       React With ▶ To See Admins Commands`,
-	`=-=-=-=-=-= 🔧  Admin Commands - اوامر ادارية 🔧 =-=-=-=-=-=
-    ❖ _move @user => Move User To Your Room Voice | لسحب الشخص الى روومك
-    ❖ _mvall => Move All To Your Room Voice | لسحب الجميع الي روومك
-    ❖ _bc => Broadcast | رسالة جماعية الى كل اعضاء السيرفر
-    ❖ _role @user <rank> => Give User Rank | لأعطاء رتبة لعضو معين
-    ❖ _roleremove @user <rank> => remove Rank From User | لازالة الرتبة من شخص معين
-    ❖ _role all <rank> => Give All Rank | لأعطاء رتبة للجميع
-    ❖ _role humans <rank> => Give Humans Rank | لأعطاء رتبة للاشخاص فقط
-    ❖ _role bots <rank> => Give Bots Rank | لأعطاء رتبة لجميع البوتات
-    ❖ _hchannel => Hide Channel | اخفاء الشات
-    ❖ _schannel => Show The Hidden Channel | اضهار الشات المخفية
-    ❖ _clr <numbr> => Clear Chat With Number | مسح الشات بعدد
-    ❖ _clear => Clear Chat | مسح الشات
-    ❖ _mute @user <reason> => Mute User | اعطاء العضو ميوت لازم رتبة <Muted>
-    ❖ _unmute @user => Unmute User | لفك الميوت عن الشخص 
-    ❖ _kick @user <reason> => Kick User From Server | طرد الشخص من السيرفر
-    ❖ _ban @user <reason> => Ban User From Server | حضر الشخص من السيرفر
-    ❖ _mutechannel => Mute Channel | تقفيل الشات
-    ❖ _unmutechannel => Unmute Channel | فتح الشات
-    ❖ _dc => Delete All Rooms |  مسح كل الرومات
-    ❖ _dr => Delete All Rank <مسح كل الرانكات <لازم تكون رانك البوت فوق كل الرانكات
-    ❖ _ccolors <number> => Create Colors | ينشا لك الوان مع كم الوان تبي
-    ❖ _vonline => Create Channel Voice Online | يسوي رووم فويس اونلاين
+	`ADMINS
+    ❖ _move [@user]
+	❖ _mvall "move all members"
+	❖ _bc [massage]
+	❖ _role [@user] [role name]
+	❖ _roleremove [@user] [role name]
+	❖ _role all [role name]
+	❖ _role humans [role name]
+	❖ _role bots [role name]
+	❖ _hchannel "hide channel"
+	❖ _schannel "show channel"
+	❖ _clr [number]
+	❖ _clear "clear chat"
+	❖ _mute [@user] [reason]
+	❖ _unmute [@user] [reason]
+	❖ _kick [@user] [reason]
+	❖ _ban [@user] [reason]
+	❖ _mutechannel "mute the channel"
+	❖ _unmutechannel "unmute the channel"
+	❖ _dc "delete all rooms"
+	❖ _dr "delete all roles"
+	❖ _ccolors [number]
+	❖ _vonline "voice online room"
      ===========================================================
      ✴ Create Channel **welcome** To Enable The Welcome 
      ✴ Create Channel **suggestion** To Enable Command _sug
