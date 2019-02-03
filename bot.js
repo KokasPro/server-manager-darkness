@@ -115,7 +115,6 @@ if (message.content.startsWith(prefix + 'help')) {
       قريييب نضيف بعض الالعاب واذا تبون اي لعبة تعالو سيرفر المساعدة`]
 	let page = 1;
 
-    let embed = new Discord.RichEmbed()
     .setColor('RANDOM')
     .setFooter(`Page ${page} of ${pages.length}`)
     .setDescription(pages[page-1])
