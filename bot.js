@@ -55,25 +55,25 @@ client.on('message', message => {
  var prefix = "_";
 if (message.content.startsWith(prefix + 'help')) {
     let pages = [
-	`=-=-=-=-=-= 🌍 Public Commands - اوامر عامة 🌍 =-=-=-=-=-=
-     ✴ _sug =====> To Suggest | لعمل اقتراح
-    ✴ _id ======> To Show Your ID | ايدي حسابك
-    ✴ _ping ====> Ping Of Bot | بنج حك البوت
-    ✴ _allbots => Show All Bots In The Server | لاضهار جميع البوتات
-    ✴ _bot =====> Information Of The Bot | معلومات البوت
-    ✴ _server ==> Information Of The Server | معلومات السيرفر
-    ✴ _count ===> Member Count | عدد الاشخاص في السيرفر
-    ✴ _cal =====> To Calculate | اله لحاسبة 
-    ✴ _tag =====> To Tag A Word | لعمل تاق لكلمة 
-    ✴ _rooms ===> Show Rooms Of Server | اضهار الرومات الي في السيرفر
-    ✴ _za5 =====> To decorate Some Word | لزخرفة الكلمات
-    ✴ _roles ===> Show Roles Of The Server | اضهار الرانكات
-    ✴ _emojis ==> Emoji Of Server | ايموجيات السيرفر   
-    ✴ _say =====> The Bot Say Any Thing | تكرار اي شي كتبتو
-    ✴ _image ===> To Show Image Of Server | لاضهار صورة السيرف 
-    ✴ _embed ===> To Embed | لتكرار اي شي كتبتو بطريقة حلوة
-    ✴ _avatar ==> Your Avatar | صورتك الشخصية
-    ✴ _support => Server Support | سيرفر الدعم الفني
+	`PUBLIC COMMANDS
+    ✴ _sug [suggest]
+    ✴ _id "To show your ID"
+    ✴ _ping [ping of bot]
+	✴ _allbots "show all bots"
+	✴ _bot "information of the bot"
+	✴ _server "information of the server"
+	✴ _count "Members count
+	✴ _cal "to Calculate"
+	✴ _tag [the word]
+	✴ _rooms "show all rooms"
+	✴ _za5 "To decorate words"
+	✴ _roles "show all roles"
+	✴ _emoji "Emoji of server"
+	✴ _say [The word]
+	✴ _image "server image"
+	✴ _embed [The word]
+	✴ _avatar [@user]
+	✴ _support "the bot dev server"
      ===========================================================
       React With ▶ To See Admins Commands`,
 	`=-=-=-=-=-= 🔧  Admin Commands - اوامر ادارية 🔧 =-=-=-=-=-=
