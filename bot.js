@@ -104,7 +104,7 @@ if (message.content.startsWith(prefix + 'help')) {
      ✴ Create Channel **suggestion** To Enable Command _sug
      ===========================================================
       React With ▶ To See Games Commands`,
-	`=-=-=-=-=-= 🎯  Games Commands - اوامر الالعاب 🎯 =-=-=-=-=-=
+	`GAMES
     💠 _rps "rock & paper"
 	💠 _slots "Game of fruits"
 	💠 _marry [@user]
