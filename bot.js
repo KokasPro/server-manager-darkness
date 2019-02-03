@@ -105,14 +105,11 @@ if (message.content.startsWith(prefix + 'help')) {
      ===========================================================
       React With ▶ To See Games Commands`,
 	`=-=-=-=-=-= 🎯  Games Commands - اوامر الالعاب 🎯 =-=-=-=-=-=
-    💠 _rps => Rock & Paper & Scissors | لعبة حجر ورقة مقص
-    💠 _slots => Game Of Fruits | لعبة الفواكه
-    💠 _marry @user => لعبة الزواج
-    💠 _speed => لعبة سرعة كتابة 
-    💠 _لعبة فكك <= فكك
-    💠 _لعبة عواصم <= عواصم
-    💠 _البوت يعطيك نصائح <= هل تعلم
-      قريييب نضيف بعض الالعاب واذا تبون اي لعبة تعالو سيرفر المساعدة`]
+    💠 _rps "rock & paper"
+	💠 _slots "Game of fruits"
+	💠 _marry [@user]
+	💠 _speed "fast writing"
+      More games soon, Contact the bot owner if you have any problem : KokasPro#5250`]
 	let page = 1;
 
     let embed = new Discord.RichEmbed()
