@@ -26,7 +26,7 @@ const sql = require("sqlite");
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`_help | Made by KokasPro#5250`,"https://www.twitch.tv/kokaspro")
+client.user.setGame(`_help | Made by KokasPro#7184`,"https://www.twitch.tv/kokaspro")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
